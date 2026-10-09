@@ -1,0 +1,55 @@
+{
+  "bom_ready": true,
+  "requirements_digest": "ff22762c5387ec92463645426ffa0ae6a88cc0783919328ffb04e446c2fe603a",
+  "notes": [
+    "纯机械外观模型，无新增电子器件与接线；零件是设计组成清单，尚未定义采购及打印装配方案。"
+  ],
+  "schema_version": 1,
+  "status": "ready",
+  "items": [
+    {
+      "id": "camera_reference",
+      "name": "小米 C700 外壳参照模型",
+      "quantity": 1,
+      "type": "reference_geometry",
+      "selection_reason": "用户授权按照片复刻，原机 82 × 82 × 130 mm、球头直径 82 mm；非官方 CAD",
+      "part_identity": "709e80c88487a241"
+    },
+    {
+      "id": "headband",
+      "name": "弧形耳麦头梁装饰",
+      "quantity": 1,
+      "type": "custom_mechanical"
+    },
+    {
+      "id": "cat_ear",
+      "name": "带内凹面的猫耳装饰",
+      "quantity": 2,
+      "type": "custom_mechanical"
+    },
+    {
+      "id": "earcup_shell",
+      "name": "耳罩外壳装饰",
+      "quantity": 2,
+      "type": "custom_mechanical"
+    },
+    {
+      "id": "earcup_pad",
+      "name": "耳罩软垫外观件",
+      "quantity": 2,
+      "type": "custom_mechanical"
+    },
+    {
+      "id": "boom",
+      "name": "弯曲麦杆装饰",
+      "quantity": 1,
+      "type": "custom_mechanical"
+    },
+    {
+      "id": "mic",
+      "name": "黑色麦克风头装饰",
+      "quantity": 1,
+      "type": "custom_mechanical"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "visual_draft",
+  "summary": "小米 C700 参照外壳及猫耳耳麦外观还原",
+  "required_interfaces": [{"id": "head_clearance", "kind": "internal_fit", "description": "围绕 82 mm 球头，正面镜头无遮挡，静态外观检查", "source": "user_requested", "required": true}],
+  "external_references": [
+    {"id": "camera_photo", "source": "user_requested", "description": "原机照片与用户尺寸", "path": "product/references/uploads/20261008T090503703Z-1-20261008164235-427-3.png"},
+    {"id": "headset_photo", "source": "user_requested", "description": "猫耳耳麦效果图", "path": "product/references/uploads/20261008T090503703Z-2-c700.png"}
+  ],
+  "assembly_story": {"installation": "外观组合；安装夹持待实测", "maintenance": "装饰分件独立调整", "user_access": ["保留正面镜头"]},
+  "cad": {"requirement": "required", "designs": [{"role": "camera_headset", "design_id": "c700_headset", "description": "原机参照与猫耳耳麦组合", "delivery_target": "visual_review", "required_formats": ["step"], "interface_ids": ["head_clearance"], "reference_ids": ["camera_photo", "headset_photo"]}]},
+  "open_questions": []
+}

@@ -1,0 +1,13 @@
+{
+  "requirements": {
+    "product_class": {"value": "mechanical", "source": "default"},
+    "camera_envelope_mm": {"value": [82, 82, 130], "source": "user"},
+    "head_diameter_mm": {"value": 82, "source": "user"},
+    "camera_reference": {"value": "复刻小米 C700 外壳作为参照", "source": "user"},
+    "decoration": {"value": "按效果图还原猫耳头梁、两侧耳罩、右侧麦克风", "source": "user"},
+    "delivery": {"value": "参数化外观模型与 STEP；安装和运动验证待实测", "source": "default"},
+    "head_center_z_mm": {"value": 89, "source": "default"},
+    "band_clearance_mm": {"value": 1.2, "source": "default"}
+  },
+  "open_questions": []
+}

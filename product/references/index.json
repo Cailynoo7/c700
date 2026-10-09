@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "uploads/20261008T090503703Z-1-20261008164235-427-3.png",
+      "sha256": "e05e9402271eb498d4d6957173902c41b00109463a237335e84df56f6ffabb80",
+      "bytes": 46593,
+      "addedAt": "2026-10-08T09:05:03.913Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261008T090503703Z-2-c700.png",
+      "sha256": "ec81874698d2de9087330f2a1b560e5628c081caeac3243d736373b785e50ff0",
+      "bytes": 893957,
+      "addedAt": "2026-10-08T09:05:03.914Z",
+      "share": false
+    }
+  ]
+}

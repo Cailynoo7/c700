@@ -1,0 +1,751 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "camera_reference",
+      "label": "camera_reference",
+      "cells": [
+        {
+          "id": "camera_reference",
+          "target": "camera_reference",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/camera_reference/000-camera_reference.py",
+          "sha256": "d440258f6767c1fac4feb07fabee277f79d1d1876d6005ebf842be54752d666c"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "headband",
+      "label": "headband",
+      "cells": [
+        {
+          "id": "headband",
+          "target": "headband",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/headband/000-headband.py",
+          "sha256": "d7ffc7ee63881cc8476bdcabbde4a30351cd42b1a0d89fd68895754ffe51de1c"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "right_ear",
+      "label": "right_ear",
+      "cells": [
+        {
+          "id": "right_ear",
+          "target": "right_ear",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/right_ear/000-right_ear.py",
+          "sha256": "6a2007cb01ed676212fdf1b140f3c0db86ccb542fa6895e14f5bf765959965da"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "left_ear",
+      "label": "left_ear",
+      "cells": [
+        {
+          "id": "left_ear",
+          "target": "left_ear",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/left_ear/000-left_ear.py",
+          "sha256": "7f9a813b27550540f5ebd0467aceab2ab6aea568ba88d1d7d823210b2fa79520"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "right_cup",
+      "label": "right_cup",
+      "cells": [
+        {
+          "id": "right_cup",
+          "target": "right_cup",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/right_cup/000-right_cup.py",
+          "sha256": "82baaa9c66fc95f1eb29721345eb8687375717cfb243d89f1a70cb3cf2472c99"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "left_cup",
+      "label": "left_cup",
+      "cells": [
+        {
+          "id": "left_cup",
+          "target": "left_cup",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/left_cup/000-left_cup.py",
+          "sha256": "0c790fdb7fe55869a11e90e5331701131b025f8568d89d2ac0128a96424d637f"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "boom",
+      "label": "boom",
+      "cells": [
+        {
+          "id": "boom",
+          "target": "boom",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/boom/000-boom.py",
+          "sha256": "dd8253eb4f3195b31585f7dfb9a2020f42bceecb837f12e44276d74a2af951c6"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "mic",
+      "label": "mic",
+      "cells": [
+        {
+          "id": "mic",
+          "target": "mic",
+          "order": 0,
+          "path": "design/c700_headset/source/parts/mic/000-mic.py",
+          "sha256": "d23093474b8a9be345f75d166c15ec34dc7c31d6385ac53289c986a37a5b00fc"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "camera_base",
+      "target": "camera_reference",
+      "label": "C700 底座",
+      "material": "abs",
+      "kind": "generated",
+      "shapeHash": "8f8f7eb92c357bcb99a1d35a658862e7e2a6ee70075516d692c03398c18f2595",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_foot",
+      "target": "camera_reference",
+      "label": "底部圆盘",
+      "material": "abs",
+      "kind": "generated",
+      "shapeHash": "dba600c3314b41842dbf6b6616d9f53e2a1dc0b3ba47ecb817fb0f0332c1015d",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_glass",
+      "target": "camera_reference",
+      "label": "镜头玻璃",
+      "material": "glass",
+      "kind": "generated",
+      "shapeHash": "dfdf4de1071118d0918190a8827c83a076780100b4602042d923de8805a9b71b",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_head",
+      "target": "camera_reference",
+      "label": "82 mm 球头",
+      "material": "abs",
+      "kind": "generated",
+      "shapeHash": "319d3b97b02065328637c776423af6ca06abbb2e961ececb05b0c4d3633effa7",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_lens_disk",
+      "target": "camera_reference",
+      "label": "镜头转盘",
+      "material": "abs",
+      "kind": "generated",
+      "shapeHash": "b6be2ebe8c99453b63fa92aa8ff99680f628977664678ca677e747723ff26d22",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_lens_ring",
+      "target": "camera_reference",
+      "label": "金色镜头圈",
+      "material": "brass",
+      "kind": "generated",
+      "shapeHash": "bc5e055a0f535a7624cc670140677bc9208439193a3ddbd53ebbfcaf746cf756",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_window",
+      "target": "camera_reference",
+      "label": "黑色镜头窗口",
+      "material": "abs",
+      "kind": "generated",
+      "shapeHash": "f5db49762702a619272334a915ae76243509931c3116eecb87c3002dc0dcbfcf",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "headband",
+      "target": "headband",
+      "label": "Headband",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "2bfa5fab132b8ee5e974dc31524e768448452f21fa7cf5e96e547c6082595f39",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          89
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "right_ear",
+      "target": "right_ear",
+      "label": "右猫耳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "8ed93c97686a1f0ad8f0b2ddd87f6f6399d153e94b73f4b95ba1640c295c98a0",
+      "transform": {
+        "positionMm": [
+          30,
+          0,
+          119.3
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "left_ear",
+      "target": "left_ear",
+      "label": "左猫耳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "e61d529d256cf3872733441b2cc074668a058bd421e932475c27a6fe8f6e592d",
+      "transform": {
+        "positionMm": [
+          -30,
+          0,
+          119.3
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "boom_root_joint",
+      "target": "right_cup",
+      "label": "麦杆根部连接座",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "2b2b717fb1aa3a47a3f23321a1e4bc3d6000d5c9ca2117bb5fc02e373472b975",
+      "transform": {
+        "positionMm": [
+          35.45307910843949,
+          0,
+          82.7486656039905
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "right_cup_pad",
+      "target": "right_cup",
+      "label": "右耳罩软垫",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "e22901c35200552ec491c45ddfbc6f964711580c5eff2df9e3b5a67a4482b14c",
+      "transform": {
+        "positionMm": [
+          35.45307910843949,
+          0,
+          82.7486656039905
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "right_cup_shell",
+      "target": "right_cup",
+      "label": "右耳罩外壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "28072b71a4f9a9b43a56bc3df83da55aa8c2f222637dff099265b4d09f62732f",
+      "transform": {
+        "positionMm": [
+          35.45307910843949,
+          0,
+          82.7486656039905
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "left_cup_pad",
+      "target": "left_cup",
+      "label": "左耳罩软垫",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "b954c62ee69fa34db1242fd44e58e5fab8c6e643c8234e758f16bdea4b784707",
+      "transform": {
+        "positionMm": [
+          -35.45307910843949,
+          0,
+          82.7486656039905
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          180
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "left_cup_shell",
+      "target": "left_cup",
+      "label": "左耳罩外壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "dacb4182d1b614c26874331d5c26e4d866084dae58ba3255f8a93de1e493ae0a",
+      "transform": {
+        "positionMm": [
+          -35.45307910843949,
+          0,
+          82.7486656039905
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          180
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "boom",
+      "target": "boom",
+      "label": "弯曲麦杆",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "dd421ebbdc1a477fb8a4d2874e9069fd0faa44175757995f245a82b3fac31c14",
+      "transform": {
+        "positionMm": [
+          51,
+          -7,
+          71
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mic",
+      "target": "mic",
+      "label": "黑色麦克风头",
+      "material": "rubber",
+      "kind": "generated",
+      "shapeHash": "831651f45f71ebd9f2f9bf9071bd6b65214a1214d187e938d4ef1497ef3a22d8",
+      "transform": {
+        "positionMm": [
+          26,
+          -49,
+          49
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "mic_collar",
+      "target": "mic",
+      "label": "麦头圆柱套筒",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "e06004420e859a6a1a8c7a9b6ccb2b4ae83b054074c4dfe79087e4f397e46407",
+      "transform": {
+        "positionMm": [
+          26,
+          -49,
+          49
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-10-09T07:20:55.811Z",
+  "parameters": {
+    "camera_reference": {
+      "camera_width": 82,
+      "camera_height": 130,
+      "camera_head_diameter": 82,
+      "camera_head_join_z": 57,
+      "camera_base_waist_radius": 27,
+      "camera_base_shoulder_z": 43,
+      "camera_base_bottom_lip": 2,
+      "camera_foot_diameter": 80,
+      "camera_foot_height": 2,
+      "camera_window_width": 39,
+      "camera_window_height": 65,
+      "camera_window_center_z": 92,
+      "camera_window_depth": 18,
+      "camera_lens_disk_diameter": 34,
+      "camera_lens_disk_depth": 5,
+      "camera_lens_center_z": 89,
+      "camera_lens_front_y": -40.5,
+      "camera_ring_outer_diameter": 17.5,
+      "camera_ring_inner_diameter": 14.6,
+      "camera_ring_depth": 1,
+      "camera_ring_front_y": -41,
+      "camera_glass_diameter": 10,
+      "camera_glass_thickness": 0.5,
+      "camera_glass_front_y": -41
+    },
+    "headband": {
+      "headband_inner_radius": 41,
+      "headband_thickness": 7.8,
+      "headband_depth": 14,
+      "headband_end_height": 5,
+      "headband_edge_radius": 1,
+      "headband_side_spread": 6.8,
+      "headband_end_thickness": 4.14,
+      "headband_arch_rise": -4.7,
+      "headband_end_width_ratio": 0.9
+    },
+    "right_ear": {
+      "right_ear_width": 26,
+      "right_ear_height": 25,
+      "right_ear_depth": 8,
+      "right_ear_tip_shift": 9,
+      "right_ear_rim": 3,
+      "right_ear_recess_depth": 2.5,
+      "right_ear_rounding": 2.5,
+      "right_ear_bulge": 2,
+      "right_ear_root_drop": 0.8,
+      "right_ear_root_land": 1.2,
+      "right_ear_scale": 1.1,
+      "right_ear_back_extension": 1.3,
+      "right_ear_side_round": 1.3,
+      "right_ear_side_taper_start": 0.15,
+      "right_ear_side_taper": 0.08
+    },
+    "left_ear": {
+      "left_ear_width": 26,
+      "left_ear_height": 25,
+      "left_ear_depth": 8,
+      "left_ear_tip_shift": 9,
+      "left_ear_rim": 3,
+      "left_ear_recess_depth": 2.5,
+      "left_ear_rounding": 2.5,
+      "left_ear_bulge": 2,
+      "left_ear_root_drop": 0.8,
+      "left_ear_root_land": 1.2,
+      "left_ear_scale": 1.1,
+      "left_ear_back_extension": 1.3,
+      "left_ear_side_round": 1.3,
+      "left_ear_side_taper_start": 0.15,
+      "left_ear_side_taper": 0.08
+    },
+    "right_cup": {
+      "right_cup_depth": 30,
+      "right_cup_height": 40,
+      "right_cup_pad_thickness": 6.18,
+      "right_cup_shell_thickness": 0.4282456235564176,
+      "right_cup_rounding": 2,
+      "right_cup_clearance": 1.2,
+      "right_cup_rod_seat_diameter": 3,
+      "right_cup_tilt_deg": 10,
+      "right_cup_shell_cap_depth": 3.9,
+      "right_cup_shell_cap_margin": 5.25,
+      "right_cup_diameter": 39.6,
+      "right_cup_pad_roll": 3.2,
+      "right_cup_pad_diameter": 42,
+      "right_cup_shell_taper": 2.625,
+      "right_cup_shell_join_radius": 1.3,
+      "right_cup_shell_outer_radius": 1,
+      "right_cup_shell_dome_height": 1,
+      "right_cup_pad_contact_diameter": 32.04,
+      "right_cup_pad_inward_extension": 2.5,
+      "right_cup_axial_ratio": 0.9,
+      "right_cup_boom_joint_diameter": 4.8,
+      "right_cup_boom_joint_length": 6.5,
+      "right_cup_boom_joint_embed": 1.2,
+      "right_cup_boom_joint_rounding": 0.45
+    },
+    "left_cup": {
+      "left_cup_depth": 30,
+      "left_cup_height": 40,
+      "left_cup_pad_thickness": 6.18,
+      "left_cup_shell_thickness": 0.4282456235564176,
+      "left_cup_rounding": 2,
+      "left_cup_clearance": 1.2,
+      "left_cup_tilt_deg": 10,
+      "left_cup_shell_cap_depth": 3.9,
+      "left_cup_shell_cap_margin": 5.25,
+      "left_cup_diameter": 39.6,
+      "left_cup_pad_roll": 3.2,
+      "left_cup_pad_diameter": 42,
+      "left_cup_shell_taper": 2.625,
+      "left_cup_shell_join_radius": 1.3,
+      "left_cup_shell_outer_radius": 1,
+      "left_cup_shell_dome_height": 1,
+      "left_cup_pad_contact_diameter": 32.04,
+      "left_cup_pad_inward_extension": 2.5,
+      "left_cup_axial_ratio": 0.9
+    },
+    "boom": {
+      "boom_diameter": 2.8,
+      "boom_end_x": -25,
+      "boom_end_y": -42,
+      "boom_end_z": -22,
+      "boom_bend_x": -3,
+      "boom_bend_drop": 13,
+      "boom_root_inset": 1.1813501915000082,
+      "boom_cup_tilt_delta": 3
+    },
+    "mic": {
+      "mic_width": 18,
+      "mic_height": 14,
+      "mic_depth": 14,
+      "mic_rod_seat_diameter": 3,
+      "mic_collar_diameter": 3.9,
+      "mic_collar_length": 4.2,
+      "mic_collar_distance": 10.1,
+      "mic_collar_rounding": 0.25,
+      "mic_volume_ratio": 0.9
+    }
+  }
+}

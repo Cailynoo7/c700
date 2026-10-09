@@ -1,0 +1,132 @@
+{
+  "designId": "c700_headset",
+  "revision": "b71e4431b050e34817534b05813f38b9b81c629edfe1d5139b3276ad153ebc8a",
+  "schemaVersion": 2,
+  "exportId": "export-cb4716f2e25f3656f7a8b13f40d9efde",
+  "generatedAt": "2026-10-09T07:20:55.811Z",
+  "designSha256": "dc378a3de68d2a2a372bb5fa89ebe661c86bb9165bae99c6205682ba05df6a72",
+  "role": "camera_headset",
+  "stateHash": "fce9cab96fb27193b77c63b8f96f9a1ca0e3f996d8225bd38b088e54683d7f47",
+  "stateManifest": {
+    "schemaVersion": 3,
+    "designId": "c700_headset",
+    "role": "camera_headset",
+    "design": {
+      "revision": "b71e4431b050e34817534b05813f38b9b81c629edfe1d5139b3276ad153ebc8a",
+      "designSha256": "8260d4f40e64bf17450eac8f48fea072967ef6fa945a92cb796792953245fb8f",
+      "manifestSha256": "c5c7d5c57f7d96a4d2a63f7bff8c19e6b98598be09b2cf649b05995a76d8ecad",
+      "stepSha256": "3eb929aca944a009df79d33a98dca8f00b0bb0425fbce1ec097016a219749bb7",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/c700_headset/README.md",
+      "sha256": "43cb5c8e6e81152b1ccb8884cc5f5bb2a7f63d9c274fa8a7afdd0d416697e08d"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "1da55b663d0009f30097ff57a407fddcfc1911e035e56e97c7d0069a47b8644e",
+      "designRequirementSha256": "7dc1a3a836fed83bd32b7b5732b14012b4d750be6b5d59abe303cd79e7e493b1",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "camera_photo",
+          "path": "product/references/uploads/20261008T090503703Z-1-20261008164235-427-3.png",
+          "sha256": "e05e9402271eb498d4d6957173902c41b00109463a237335e84df56f6ffabb80",
+          "sizeBytes": 46593
+        },
+        {
+          "role": "external-reference",
+          "id": "headset_photo",
+          "path": "product/references/uploads/20261008T090503703Z-2-c700.png",
+          "sha256": "ec81874698d2de9087330f2a1b560e5628c081caeac3243d736373b785e50ff0",
+          "sizeBytes": 893957
+        }
+      ]
+    },
+    "delivery": {
+      "target": "visual_review",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "fce9cab96fb27193b77c63b8f96f9a1ca0e3f996d8225bd38b088e54683d7f47"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "c5c7d5c57f7d96a4d2a63f7bff8c19e6b98598be09b2cf649b05995a76d8ecad",
+    "stepSha256": "3eb929aca944a009df79d33a98dca8f00b0bb0425fbce1ec097016a219749bb7"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "e2af1b0833add633b44719abaa1621ecf0dce13d9b71da057d1343cb112a1509"
+  },
+  "sourceHashes": {
+    "boom/boom": "dd8253eb4f3195b31585f7dfb9a2020f42bceecb837f12e44276d74a2af951c6",
+    "camera_reference/camera_reference": "d440258f6767c1fac4feb07fabee277f79d1d1876d6005ebf842be54752d666c",
+    "headband/headband": "d7ffc7ee63881cc8476bdcabbde4a30351cd42b1a0d89fd68895754ffe51de1c",
+    "left_cup/left_cup": "0c790fdb7fe55869a11e90e5331701131b025f8568d89d2ac0128a96424d637f",
+    "left_ear/left_ear": "7f9a813b27550540f5ebd0467aceab2ab6aea568ba88d1d7d823210b2fa79520",
+    "mic/mic": "d23093474b8a9be345f75d166c15ec34dc7c31d6385ac53289c986a37a5b00fc",
+    "right_cup/right_cup": "82baaa9c66fc95f1eb29721345eb8687375717cfb243d89f1a70cb3cf2472c99",
+    "right_ear/right_ear": "6a2007cb01ed676212fdf1b140f3c0db86ccb542fa6895e14f5bf765959965da"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "boom": "dd421ebbdc1a477fb8a4d2874e9069fd0faa44175757995f245a82b3fac31c14",
+    "boom_root_joint": "2b2b717fb1aa3a47a3f23321a1e4bc3d6000d5c9ca2117bb5fc02e373472b975",
+    "camera_base": "8f8f7eb92c357bcb99a1d35a658862e7e2a6ee70075516d692c03398c18f2595",
+    "camera_foot": "dba600c3314b41842dbf6b6616d9f53e2a1dc0b3ba47ecb817fb0f0332c1015d",
+    "camera_glass": "dfdf4de1071118d0918190a8827c83a076780100b4602042d923de8805a9b71b",
+    "camera_head": "319d3b97b02065328637c776423af6ca06abbb2e961ececb05b0c4d3633effa7",
+    "camera_lens_disk": "b6be2ebe8c99453b63fa92aa8ff99680f628977664678ca677e747723ff26d22",
+    "camera_lens_ring": "bc5e055a0f535a7624cc670140677bc9208439193a3ddbd53ebbfcaf746cf756",
+    "camera_window": "f5db49762702a619272334a915ae76243509931c3116eecb87c3002dc0dcbfcf",
+    "headband": "2bfa5fab132b8ee5e974dc31524e768448452f21fa7cf5e96e547c6082595f39",
+    "left_cup_pad": "b954c62ee69fa34db1242fd44e58e5fab8c6e643c8234e758f16bdea4b784707",
+    "left_cup_shell": "dacb4182d1b614c26874331d5c26e4d866084dae58ba3255f8a93de1e493ae0a",
+    "left_ear": "e61d529d256cf3872733441b2cc074668a058bd421e932475c27a6fe8f6e592d",
+    "mic": "831651f45f71ebd9f2f9bf9071bd6b65214a1214d187e938d4ef1497ef3a22d8",
+    "mic_collar": "e06004420e859a6a1a8c7a9b6ccb2b4ae83b054074c4dfe79087e4f397e46407",
+    "right_cup_pad": "e22901c35200552ec491c45ddfbc6f964711580c5eff2df9e3b5a67a4482b14c",
+    "right_cup_shell": "28072b71a4f9a9b43a56bc3df83da55aa8c2f222637dff099265b4d09f62732f",
+    "right_ear": "8ed93c97686a1f0ad8f0b2ddd87f6f6399d153e94b73f4b95ba1640c295c98a0"
+  },
+  "runtime": {
+    "manifestHash": "8af55fe2bce837629aaf94ea1b6bc148222ee49cff95679cbb6ea6f6856e66a8",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "81911f3a8adaeb8d0c4be9c12da56f8c18df074c4680646de6b0a4fe8457a5cc"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/c700_headset/releases/export-cb4716f2e25f3656f7a8b13f40d9efde/model.step",
+      "role": "model/step",
+      "sha256": "3eb929aca944a009df79d33a98dca8f00b0bb0425fbce1ec097016a219749bb7",
+      "sizeBytes": 2400697
+    }
+  ],
+  "interference": {
+    "summary": "No interference across 153 object pairs.",
+    "counts": {
+      "objects": 18,
+      "pairs": 153,
+      "exact": 31,
+      "cached": 5,
+      "interference": 0,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": []
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "ce125c2a04b7bda377f7dd25834d443a",
+    "projectId": "0a55b3be-e5c9-4fba-970a-5120747663f7",
+    "receiptPath": "manufacturing/c700_headset/releases/export-cb4716f2e25f3656f7a8b13f40d9efde/receipt.json",
+    "payloadSha256": "2982fcf03a93e32908dd15d74a5b1254f3c6e53b9df025989be5c39e3ee6dd28",
+    "mac": "1ffba4442b72662d7d928ad53450e6ca61319f13f799a2ce6d2e50f5c1111133"
+  },
+  "status": "handoff"
+}

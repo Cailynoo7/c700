@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "naming_policy": "Each user-requested modification receives the next unused v-prefixed integer version; prior version records and exports are retained.",
+  "versions": [
+    {
+      "name": "v1",
+      "revision": "7c24b3c1f91a50a8e74f97b256515c10baf93a6ecdbf2b84508195a09faafcb2",
+      "export_id": "export-941f257caba16a72a88799e301f4736f",
+      "description": "Round cups with inflated cushions; before tapered shell and outside headband connection."
+    },
+    {
+      "name": "v2",
+      "revision": "cbd446182c207f79683cf331a04f54ee4610ab73eeff49f751aaa6e2edf4bcd6",
+      "export_id": "export-ed47436f776387482d6fb2fb640c7e4c",
+      "description": "Larger cushions, two outward-tapering shell tiers, and headband ends joined to the outer cups with matching ear roots.",
+      "historical_edits": [
+        {
+          "revision": "56ac7d2a9a5176b74cba9009864fbe2fc3ffea410c91d6619c72477c38084c77",
+          "export_id": "export-31219ad6fafc8e5ef20b76440948c7df",
+          "description": "Continuous gently concave ear surfaces; superseded by restoration in version v3."
+        }
+      ]
+    },
+    {
+      "name": "v3",
+      "revision": "9cc3328819400e20c3af3c5ed1cc5036cd34439eba6295d727f7bb517beb30b0",
+      "export_id": "export-1673351d35cbf81e402c2a163b04cc47",
+      "restored_from": "v2",
+      "description": "Restored version v2 ear shape and recess depth; other parts retain version v2 geometry."
+    },
+    {
+      "name": "v4",
+      "revision": "dbc5f850dce847e0b46be97aa40e7ddc9f89beeb13a26662a7530b80aa98cc8e",
+      "export_id": "export-a3e18526793ad08a08fce8e51fad9939",
+      "based_on": "v3",
+      "parameter_changes": {
+        "right_cup_shell_taper": {
+          "before": 4,
+          "after": 7
+        },
+        "left_cup_shell_taper": {
+          "before": 4,
+          "after": 7
+        }
+      },
+      "description": "Both cup shells taper faster outward: each stage narrows by 7 mm instead of 4 mm."
+    },
+    {
+      "name": "v5",
+      "revision": "ec78cb81060c0a3df4704805a5e8451d9c287497026e7aae3be17cdfae61f2c6",
+      "export_id": "export-b161f814f06e73341934455c0dc6e6a9",
+      "based_on": "v4",
+      "parameter_changes": {
+        "right_cup_shell_thickness": {
+          "before": 5,
+          "after": 1.952163749037613
+        },
+        "left_cup_shell_thickness": {
+          "before": 5,
+          "after": 1.952163749037613
+        },
+        "right_cup_shell_cap_margin": {
+          "before": 9.9,
+          "after": 3.5
+        },
+        "left_cup_shell_cap_margin": {
+          "before": 9.9,
+          "after": 3.5
+        }
+      },
+      "description": "Large stage axial length reduced by one third; small stage enlarged to share the 31.6 mm junction diameter, with one 0.65 mm fillet ring and no annular shoulder."
+    },
+    {
+      "name": "v6",
+      "revision": "f06146dd702285d0671a05370e0a8bc082d2ac4709872f4dedfc605b6c729220",
+      "export_id": "export-7170bd8495768201df0ca47091dcfb4b",
+      "based_on": "v5",
+      "parameter_changes": {
+        "right_cup_shell_thickness": {
+          "before": 1.952163749037613,
+          "after": 0.4282456235564176
+        },
+        "left_cup_shell_thickness": {
+          "before": 1.952163749037613,
+          "after": 0.4282456235564176
+        },
+        "right_cup_shell_taper": {
+          "before": 7,
+          "after": 2.625
+        },
+        "left_cup_shell_taper": {
+          "before": 7,
+          "after": 2.625
+        },
+        "right_cup_shell_cap_depth": {
+          "before": 2.6,
+          "after": 3.9
+        },
+        "left_cup_shell_cap_depth": {
+          "before": 2.6,
+          "after": 3.9
+        },
+        "right_cup_shell_join_radius": {
+          "before": 0.65,
+          "after": 1.3
+        },
+        "left_cup_shell_join_radius": {
+          "before": 0.65,
+          "after": 1.3
+        }
+      },
+      "description": "Large axial length reduced by 25 percent and taper slope halved; small axial length increased by 50 percent; joining fillet radius doubled."
+    },
+    {
+      "name": "v7",
+      "revision": "e76162cb2f5a712b15391c5a6601a5f2b5210cac6141dfab329c70045498d20b",
+      "export_id": "export-7fed59be02dec435d4edfa2a3057e044",
+      "based_on": "v6",
+      "parameter_changes": {
+        "right_cup_shell_cap_margin": {
+          "before": 3.5,
+          "after": 5.25
+        },
+        "left_cup_shell_cap_margin": {
+          "before": 3.5,
+          "after": 5.25
+        },
+        "right_cup_shell_outer_radius": {
+          "before": 0,
+          "after": 1
+        },
+        "left_cup_shell_outer_radius": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "description": "Small stage taper increased by 50 percent, with a 1 mm fillet around its outside end rim; joining fillet remains 1.3 mm."
+    },
+    {
+      "name": "v8",
+      "revision": "fd5a7ee3f6c425a3dd623043e6ce3935212eb6a606fc68655f4ae2a3a3f68017",
+      "export_id": "export-8c7528e58d86c3cd7bf65e2bfd147012",
+      "based_on": "v7",
+      "parameter_changes": {
+        "right_cup_shell_dome_height": {
+          "before": 0,
+          "after": 1
+        },
+        "left_cup_shell_dome_height": {
+          "before": 0,
+          "after": 1
+        }
+      },
+      "description": "Both small-stage outer faces replaced with shallow spherical crowns rising 1 mm at the centre, smoothly joined to the outside rim fillet."
+    },
+    {
+      "name": "v9",
+      "revision": "def9d249f253c05675f0c3bbc64efa0ce871504057694bdfc5aac5522297eeda",
+      "export_id": "export-ff04cce0e7efb2dd6b14034769d4db2e",
+      "based_on": "v8",
+      "parameter_changes": {
+        "right_cup_pad_contact_diameter": {
+          "before": 35.6,
+          "after": 32.04
+        },
+        "left_cup_pad_contact_diameter": {
+          "before": 35.6,
+          "after": 32.04
+        }
+      },
+      "description": "Only the sphere-facing cushion face boundary diameter reduced by 10 percent, with a smooth rolled transition to the existing outside face."
+    },
+    {
+      "name": "v10",
+      "revision": "a17e94b940aea75701ee11475b285e05710ea7c19609a6ba2cdac93b3e4cffa9",
+      "export_id": "export-b948446339c5e9cbf3645c90857a0330",
+      "based_on": "v9",
+      "parameter_changes": {
+        "right_cup_pad_contact_diameter": {
+          "before": 32.04,
+          "after": 42
+        },
+        "left_cup_pad_contact_diameter": {
+          "before": 32.04,
+          "after": 42
+        },
+        "right_cup_pad_roll": {
+          "before": 3.2,
+          "after": 3.5
+        },
+        "left_cup_pad_roll": {
+          "before": 3.2,
+          "after": 3.5
+        }
+      },
+      "description": "Larger sphere-facing cushion surfaces and fuller rolled rims increase coverage of both sides of the camera head."
+    },
+    {
+      "name": "v11",
+      "revision": "def9d249f253c05675f0c3bbc64efa0ce871504057694bdfc5aac5522297eeda",
+      "export_id": "export-ca8b8697b3eb2a72cff68394c4237885",
+      "based_on": "v10",
+      "restored_from": "v9",
+      "parameter_changes": {
+        "right_cup_pad_contact_diameter": {
+          "before": 42,
+          "after": 32.04
+        },
+        "left_cup_pad_contact_diameter": {
+          "before": 42,
+          "after": 32.04
+        },
+        "right_cup_pad_roll": {
+          "before": 3.5,
+          "after": 3.2
+        },
+        "left_cup_pad_roll": {
+          "before": 3.5,
+          "after": 3.2
+        }
+      },
+      "description": "Restored exact v9 geometry under a new version name; v10 retained."
+    },
+    {
+      "name": "v12",
+      "revision": "1c41804a66aad64d9380fe57795d32a912f38127a13f5cc6c6cc1df8730bd93e",
+      "export_id": "export-dd0fc9f52bdeb98af565dbcd8526e251",
+      "based_on": "v11",
+      "parameter_changes": {
+        "right_cup_pad_inward_extension": {
+          "before": 0,
+          "after": 2.5
+        },
+        "left_cup_pad_inward_extension": {
+          "before": 0,
+          "after": 2.5
+        }
+      },
+      "description": "Foam extended inward, then boolean-trimmed with the exact radius-41 mm head sphere to form a naturally fitting zero-gap contact surface."
+    },
+    {
+      "name": "v13",
+      "revision": "20cc81a6c1923cbf7cb1f8a535417799d6d9e5b4b0ec44493fcb4ac18c01e7fc",
+      "export_id": "export-e9637a62c2e69016d9c1184ae78ba244",
+      "based_on": "v12",
+      "parameter_changes": {
+        "right_cup_pad_thickness": {
+          "before": 7,
+          "after": 6.18
+        },
+        "left_cup_pad_thickness": {
+          "before": 7,
+          "after": 6.18
+        }
+      },
+      "description": "Trimmed 10 percent from the outside of the foam: centre thickness 8.2 to 7.38 mm, preserving the boolean-cut head contact surface."
+    },
+    {
+      "name": "v14",
+      "revision": "15e20fd18dd99a63e63cf2b1ba4474bdbef0066da87aa727ec43f7ce5a7aeb53",
+      "export_id": "export-3463fa4c44f801749b5c114e07b3afaa",
+      "based_on": "v13",
+      "parameter_changes": {
+        "headband_end_thickness": {
+          "before": 6,
+          "after": 2
+        },
+        "headband_end_height": {
+          "before": 8,
+          "after": 5
+        }
+      },
+      "description": "Headband rebuilt as a constant-width rounded loft, 6 mm thick at the crown tapering smoothly to 2 mm flat ends, seated on the upper-middle outside of the cups; ear roots and cup seats rebuilt to match."
+    },
+    {
+      "name": "v15",
+      "revision": "d26961249036da60dd836927d85dbe38f026320bec9e538a6300ad169a4ba34d",
+      "export_id": "export-bf365212978df575cd5c25bc963f499d",
+      "based_on": "v14",
+      "parameter_changes": {
+        "headband_end_height": {
+          "before": 5,
+          "after": 2
+        },
+        "headband_end_flare": {
+          "before": 0,
+          "after": 4.4
+        }
+      },
+      "description": "Headband rebuilt with smooth elliptical sections, maintaining 14 mm width and 6 to 2 mm thickness. Ends wrap outward onto the upper-middle of the outermost cup crown and are boolean-conformed to its surface; old middle-tier seats restored and ear roots refitted."
+    },
+    {
+      "name": "v16",
+      "based_on": "v15",
+      "revision": "8b752b97eec9666535b262d5f98822d1a1e35b0d396d3ec98445de2392e30422",
+      "export_id": "export-8ee922c1061a62b8b58e174616cc622c",
+      "parameter_changes": {
+        "headband_end_height": {
+          "before": 2,
+          "after": -6.4
+        },
+        "headband_end_thickness": {
+          "before": 2,
+          "after": 1.6
+        }
+      },
+      "description": "Ends extended to the centre of the outermost cup face. Earlier outward wrap with a quintic transition, 61 elliptical loft sections and thinner conformal end pads; ear roots refitted."
+    },
+    {
+      "name": "v17",
+      "based_on": "v16",
+      "revision": "c6dca5df6f8a94f1f1d17f28a70eaaaa351aeb9f9ed02df38c55badeee0ceca5",
+      "export_id": "export-aed4366d94ea4d5e16c45ca86d946d07",
+      "parameter_changes": {
+        "headband_thickness": {
+          "before": 6,
+          "after": 7.6
+        },
+        "headband_end_thickness": {
+          "before": 1.6,
+          "after": 2.4
+        },
+        "headband_end_flare": {
+          "before": 4.4,
+          "after": 3.8
+        }
+      },
+      "description": "Fuller headband with 7.6 mm crown and 2.4 mm ends. Raised outer crown retains head contact; quintic side transition becomes vertical above the cups, then follows the outer cup face down to its centre. Ear roots refitted."
+    },
+    {
+      "name": "v18",
+      "based_on": "v17",
+      "restored_from": "v14",
+      "revision": "4ac52ebcf6126564d7516c056ba14572dfad902a4119e9b0a15273cf0fee2cb6",
+      "export_id": "export-6c4c72a6f94ff4c05d23a3efa16f8c89",
+      "description": "Restored v14 geometry, including the 25 rounded headband sections, 6 mm crown, 2 mm ends, 5 mm end-height parameter, and matching cup seats and ear roots. Prior version records retained."
+    },
+    {
+      "name": "v19",
+      "based_on": "v18",
+      "revision": "13e650b4838514d7a95db72dcaaf82e4f39036ce02cbae67b0d08fbeeb7b8253",
+      "export_id": "export-c6c853b8c18a695b68568dc1f7d52c0f",
+      "parameter_changes": {
+        "headband_thickness": {
+          "before": 6,
+          "after": 7.8
+        },
+        "headband_end_thickness": {
+          "before": 2,
+          "after": 2.6
+        }
+      },
+      "description": "Headband thickened by 30 percent throughout and rebuilt with 41 elliptical sections for a fully rounded surface; v18 path, constant width and endpoint height retained. Matching cup seats and ear roots refitted."
+    },
+    {
+      "name": "v20",
+      "based_on": "v19",
+      "revision": "5404494c5afd6e999647bc032a2fbe75549c86adf2ea78150c73d61189a8d0a4",
+      "export_id": "export-6c74137d3c596db2b91dd290f7b9fb2c",
+      "parameter_changes": {
+        "headband_arch_rise": {
+          "before": 0,
+          "after": 11
+        },
+        "headband_end_thickness": {
+          "before": 2.6,
+          "after": 4.6
+        }
+      },
+      "description": "More arched elliptical headband: horizontal semi-axis 49 mm, vertical semi-axis 52 mm, centre lowered 11 mm to preserve head contact. Fuller 4.6 mm ends with 0.35 mm terminal rim fillets; matching cup seats and ear roots rebuilt."
+    },
+    {
+      "name": "v21",
+      "based_on": "v20",
+      "revision": "c5be73bc01be5711e76ebf3f568e1054d71ace8dc5bd6bd32de24d6e164a3468",
+      "export_id": "export-ae897e9cc2aafae4b1a40c2d680dc31a",
+      "parameter_changes": {
+        "headband_arch_rise": {
+          "before": 11,
+          "after": -4
+        }
+      },
+      "description": "Corrected ellipse curvature direction: 49 mm horizontal and 37 mm vertical semi-axes, centre raised 4 mm to preserve head contact. Inner-arc curvature increases monotonically from crown to sides, radius about 64.9 to 28.0 mm. Fuller 4.6 mm ends retained, terminal rim radius 0.15 mm; cup seats and ear roots refitted."
+    },
+    {
+      "name": "v22",
+      "based_on": "v21",
+      "revision": "89221a2c76d4c24bd1961eb00daf3ae3282478b115f47207e6e13a0af0899d1c",
+      "export_id": "export-3c1888131135b5306ba12a57d1d458c2",
+      "parameter_changes": {
+        "right_cup_axial_ratio": {
+          "before": 1,
+          "after": 0.9
+        },
+        "left_cup_axial_ratio": {
+          "before": 1,
+          "after": 0.9
+        },
+        "headband_side_spread": {
+          "before": 8,
+          "after": 6.8
+        },
+        "boom_root_inset": {
+          "before": 0,
+          "after": 1.1813501915000082
+        }
+      },
+      "description": "Both complete cups compressed 10 percent axially about the head contact pole, preserving circular diameters; foam head surfaces recut to maintain spherical contact. Headband sides narrowed 1.2 mm each with the increasing side curvature retained; ear roots, cup seats and boom seats refitted."
+    },
+    {
+      "name": "v23",
+      "based_on": "v22",
+      "revision": "5233fa291eab67374918953694dbcd94eb04953c9f19817c5915dcc4bbc4abce",
+      "export_id": "export-2d1178a51345712f382da0285a782783",
+      "parameter_changes": {
+        "headband_arch_rise": {
+          "before": -4,
+          "after": -4.7
+        },
+        "headband_end_thickness": {
+          "before": 4.6,
+          "after": 4.14
+        },
+        "headband_end_width_ratio": {
+          "before": 1,
+          "after": 0.9
+        }
+      },
+      "description": "Slightly strengthened increasing curvature from crown to sides: 47.8 by 36.3 mm ellipse. Cross-section tapers smoothly in both thickness and width, with terminal dimensions 4.14 by 12.6 mm, 90 percent of the preceding linear dimensions; rounded ends and matching cup seats and ear roots retained."
+    },
+    {
+      "name": "v24",
+      "based_on": "v23",
+      "restored_curvature_from": "v22",
+      "revision": "adb4de62fc9e1f813a556732b8d8f37572fc94456b1e089d14f465f6fbdb322d",
+      "export_id": "export-054d152901d9468e0546a13fc67f94c5",
+      "parameter_changes": {
+        "headband_arch_rise": {
+          "before": -4.7,
+          "after": -4
+        }
+      },
+      "description": "Restored v22 headband curvature while retaining v23 tapered cross-sections and 90 percent terminal thickness and width. Matching cup seats and ear roots rebuilt."
+    },
+    {
+      "name": "v25",
+      "based_on": "v24",
+      "revision": "d57dc8b04c6fcdf47c62308859251dd4fe120584d1c044b022817a2ee666c790",
+      "export_id": "export-5824cb024d1a101758c9bb2f70b9d609",
+      "parameter_changes": {
+        "right_cup_tilt_deg": {
+          "before": 7,
+          "after": 10
+        },
+        "left_cup_tilt_deg": {
+          "before": 7,
+          "after": 10
+        },
+        "headband_arch_rise": {
+          "before": -4,
+          "after": -4.7
+        },
+        "boom_cup_tilt_delta": {
+          "before": 0,
+          "after": 3
+        }
+      },
+      "description": "Both cups moved about 1.864 mm down along the spherical head by increasing downward tilt to 10 degrees and matching their radial placements. Headband curvature strengthened slightly toward sides, retaining rounded tapered 90 percent ends. Cup seats, ear roots and boom interfaces rebuilt; mic end retained."
+    },
+    {
+      "name": "v26",
+      "based_on": "v25",
+      "revision": "e6ae6359ea8408ce9fbfb985aa4426650bbb231cf6fda46d0468a3e5bad26252",
+      "export_id": "export-8863f58045bc61b432d5407162cbe37e",
+      "parameter_changes": {
+        "right_cup_boom_joint_diameter": {
+          "before": null,
+          "after": 4.8
+        },
+        "right_cup_boom_joint_length": {
+          "before": null,
+          "after": 6.5
+        },
+        "right_cup_boom_joint_embed": {
+          "before": null,
+          "after": 1.2
+        },
+        "right_cup_boom_joint_rounding": {
+          "before": null,
+          "after": 0.45
+        },
+        "mic_collar_diameter": {
+          "before": null,
+          "after": 3.9
+        },
+        "mic_collar_length": {
+          "before": null,
+          "after": 4.2
+        },
+        "mic_collar_distance": {
+          "before": null,
+          "after": 8.6
+        },
+        "mic_collar_rounding": {
+          "before": null,
+          "after": 0.25
+        }
+      },
+      "description": "Added rounded boom root connector seated against the right outer cup and a short slightly wider cylindrical ferrule before the microphone foam. Both follow the actual boom tangent, with seats cut against their mating surfaces. Based on user reference image; preceding headset geometry retained."
+    },
+    {
+      "name": "v27",
+      "based_on": "v26",
+      "revision": "a0a0a7d5245e68cbf2517af8b3e6f56fd123e4de8a6a6ce351be8849a94d2958",
+      "export_id": "export-ee10b05a80e1e177a621533bb5042006",
+      "parameter_changes": {
+        "mic_width": {
+          "before": 16,
+          "after": 18
+        },
+        "mic_height": {
+          "before": 13,
+          "after": 14
+        },
+        "mic_depth": {
+          "before": 13,
+          "after": 14
+        },
+        "mic_collar_distance": {
+          "before": 8.6,
+          "after": 10.1
+        }
+      },
+      "description": "Fuller black microphone foam reshaped as a capsule with 7 mm hemispherical ends and a 4 mm cylindrical middle, 18 by 14 by 14 mm overall. Collar shifted 1.5 mm along the boom and recut against new foam for contact. No interference across 153 object pairs."
+    },
+    {
+      "name": "v28",
+      "based_on": "v27",
+      "revision": "cc55a7264e02753fa89105f169ed37555f91844eb1b4b3803d0fb272a7000f3b",
+      "export_id": "export-93817f39f32538fd8503406a8da84da4",
+      "parameter_changes": {
+        "right_ear_scale": {
+          "before": 1,
+          "after": 1.1
+        },
+        "left_ear_scale": {
+          "before": 1,
+          "after": 1.1
+        }
+      },
+      "placement_changes": {
+        "right_ear_y": {
+          "before": 2,
+          "after": 0
+        },
+        "left_ear_y": {
+          "before": 2,
+          "after": 0
+        }
+      },
+      "description": "Both ears enlarged 10 percent in their driving dimensions and moved to Y=0. Reference-driven rounded outward tips and bowed auricle sides with a broad shallow bowl following an elliptic depth law, avoiding a hard groove. Root seats refitted to headband with contact and no interference. Ear shapes mirrored for symmetry."
+    },
+    {
+      "name": "v29",
+      "based_on": "v28",
+      "revision": "da6925b007d4419cb4996e0d9d955f84c0d7412d042af948e174a6ed7ac9888c",
+      "export_id": "export-c49c851ade04a9217d10a2889a39439b",
+      "parameter_changes": {
+        "mic_volume_ratio": {
+          "before": 1,
+          "after": 0.9
+        }
+      },
+      "description": "Capsule microphone long axis aligned automatically to the actual boom endpoint tangent. Foam solid volume after seat subtraction reduced to 90 percent of preceding geometry through uniform scaling with six volume corrections; ratio assertion tolerance 0.00001. Ferrule recut against new foam for contact. No interference across 153 object pairs."
+    },
+    {
+      "name": "v30",
+      "based_on": "v29",
+      "revision": "64b0581f90b8f164fb2f9c62b6e4f8f007f1fbac8fb5afed32205668d693c15b",
+      "export_id": "export-e840550a38b7cfaa3e51178c3e3d6bef",
+      "parameter_changes": {
+        "right_ear_rim": {
+          "before": 2.5,
+          "after": 3
+        },
+        "left_ear_rim": {
+          "before": 2.5,
+          "after": 3
+        },
+        "right_ear_back_extension": {
+          "before": 0,
+          "after": 1.3
+        },
+        "left_ear_back_extension": {
+          "before": 0,
+          "after": 1.3
+        }
+      },
+      "description": "Thickened both ear side rims by reducing the inner bowl opening and increasing the front outer section. Rear auricle converges smoothly via eight shrinking sections under an elliptic depth law, replacing the broad flat back with a rounded dome. Y=0 and 1.1 size factor retained; root seats recut for zero-gap headband contact. No interference across 153 object pairs."
+    },
+    {
+      "name": "v31",
+      "based_on": "v30",
+      "revision": "f9d55431aa7d2c9cc2ac0adf6076969443762350f50c74f07b2ac776a7fbb4ee",
+      "export_id": "export-e384b1d6f72339c9ef0e2527feed6749",
+      "description": "Corrected microphone alignment to the visible ferrule tangent in full 3D, replacing the buried endpoint tangent and planar rotation. Capsule centre projected onto ferrule axis for coaxial alignment, verified by axis dot-product assertion. Previous 90 percent volume ratio retained without additional shrinkage. Ferrule seat recut for contact; top and side closeups reviewed. No interference across 153 object pairs."
+    },
+    {
+      "name": "v32",
+      "based_on": "v31",
+      "revision": "eadec2c1652ca9bc4c13f71dd3fb993f1099f0d05290fa589f8afe22db2d6a0b",
+      "export_id": "export-8d559063eb638c1710d32ee5fdd0bd4a",
+      "parameter_changes": {
+        "right_ear_side_round": {
+          "before": 0,
+          "after": 0.65
+        },
+        "left_ear_side_round": {
+          "before": 0,
+          "after": 0.65
+        },
+        "right_ear_side_taper_start": {
+          "before": 0,
+          "after": 0.15
+        },
+        "left_ear_side_taper_start": {
+          "before": 0,
+          "after": 0.15
+        }
+      },
+      "description": "Added R0.65 mm front outer perimeter fillets to both ears. Gentle side convergence starts at Y=-1.32 mm, with 0.994 outline scale at Y=0. The eight rear convergence section sizes and positions from v30 are retained. Ear roots contact headband with no interference; side and rear closeups reviewed."
+    },
+    {
+      "name": "v33",
+      "based_on": "v31",
+      "restored_from": "v31",
+      "revision": "8cdbb7aff3627c6cfa29842d1376cd353ad050fbddac787da6cd9410f0200299",
+      "export_id": "export-36603dab265da69a5459970e0e5fa797",
+      "description": "Restored v31 shape as a new version. Both ear cells match retained v31 source apart from tool cell headers; v32 side perimeter fillets and early taper removed. All other parts and placements retained, including coaxial microphone. No interference across 153 object pairs; previous versions preserved."
+    },
+    {
+      "name": "v34",
+      "based_on": "v33",
+      "revision": "9c6b63a52b8e1bf1b5a83719fc3b2c9d5d7079a7dbd30bcb06f4f9b1d5ff36bc",
+      "export_id": "export-b5ba4bc9ac5d74c5e712c6a288c3e93a",
+      "parameter_changes": {
+        "right_ear_side_round": {
+          "before": 0,
+          "after": 0.65
+        },
+        "left_ear_side_round": {
+          "before": 0,
+          "after": 0.65
+        }
+      },
+      "description": "Added R0.65 mm fillets along both ears front outer perimeter, before forming the bowl and root seats. Rear convergence and all loft sections from v33 retained; no early side taper introduced. Whole assembly and ear closeup reviewed; no interference across 153 object pairs."
+    },
+    {
+      "name": "v35",
+      "based_on": "v34",
+      "revision": "8f2fd34a5cc7a858e968a8bc4d2b9c532b60ec9c7a3ce807f2bb1b21213db2e3",
+      "export_id": "export-c00d47d5f77ce10bb4080a11e049a05f",
+      "parameter_changes": {
+        "right_ear_side_round": {
+          "before": 0.65,
+          "after": 1.3
+        },
+        "left_ear_side_round": {
+          "before": 0.65,
+          "after": 1.3
+        }
+      },
+      "description": "Doubled both ear outer perimeter fillet radii from 0.65 to 1.30 mm. Rear convergence and proportions retained; root seats maintain contact. Whole front view and ear closeup reviewed; no interference across 153 object pairs."
+    },
+    {
+      "name": "v36",
+      "based_on": "v35",
+      "revision": "b71e4431b050e34817534b05813f38b9b81c629edfe1d5139b3276ad153ebc8a",
+      "export_id": "export-cb4716f2e25f3656f7a8b13f40d9efde",
+      "parameter_changes": {
+        "right_ear_side_taper": {
+          "before": 0,
+          "after": 0.08
+        },
+        "left_ear_side_taper": {
+          "before": 0,
+          "after": 0.08
+        }
+      },
+      "description": "Gentle side convergence blends continuously into the domed rear through one loft. Rear section depth law exponent changed from 0.5 to 0.58, moving narrowing toward the sides while retaining maximum rear extent. R1.30 mm front rim fillets, auricle proportions, bowl and Y=0 retained. Side and rear closeups reviewed; root seats maintain contact; no interference across 153 object pairs."
+    }
+  ]
+}

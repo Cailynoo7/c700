@@ -1,0 +1,9 @@
+{
+  "camera_envelope_mm": [82, 82, 130],
+  "head_diameter_mm": 82,
+  "head_center_z_mm": 89,
+  "front_direction": "-Y",
+  "band_clearance_mm": 1.2,
+  "scope": "static visual reference, no measured mounting or motion validation",
+  "evidence": "user dimensions and uploaded photographs"
+}
