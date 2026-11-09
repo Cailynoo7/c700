@@ -1,5 +1,13 @@
 {
   "formatVersion": 4,
   "name": "小米c700监控器萌系外壳装饰",
+  "title": "Headset-Shaped Cover for Xiaomi C700 Camera",
+  "summary": "This headset-shaped decorative cover gives your Xiaomi C700 security camera a playful, headset-inspired look while keeping it neatly covered.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "QY G"
+    }
+  ],
   "artifacts": "rebuild"
 }

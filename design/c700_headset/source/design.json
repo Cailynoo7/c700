@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "units": "mm",
-  "coordinateFrame": "replicator-world-z-up",
+  "coordinateFrame": "makit-world-z-up",
   "targets": [
     {
       "id": "camera_reference",
@@ -123,7 +123,7 @@
       "label": "C700 底座",
       "material": "abs",
       "kind": "generated",
-      "shapeHash": "8f8f7eb92c357bcb99a1d35a658862e7e2a6ee70075516d692c03398c18f2595",
+      "shapeHash": "de779b970cb5d7b4a8a41153a60fe3028b46ddd69f0c69d832d37ab8ebf5089b",
       "transform": {
         "positionMm": [
           0,
@@ -150,34 +150,7 @@
       "label": "底部圆盘",
       "material": "abs",
       "kind": "generated",
-      "shapeHash": "dba600c3314b41842dbf6b6616d9f53e2a1dc0b3ba47ecb817fb0f0332c1015d",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "camera_glass",
-      "target": "camera_reference",
-      "label": "镜头玻璃",
-      "material": "glass",
-      "kind": "generated",
-      "shapeHash": "dfdf4de1071118d0918190a8827c83a076780100b4602042d923de8805a9b71b",
+      "shapeHash": "01cbb9ec977d90a011f9790d0c1e2ed2463944896978cb22e64649811e559e75",
       "transform": {
         "positionMm": [
           0,
@@ -204,61 +177,7 @@
       "label": "82 mm 球头",
       "material": "abs",
       "kind": "generated",
-      "shapeHash": "319d3b97b02065328637c776423af6ca06abbb2e961ececb05b0c4d3633effa7",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "camera_lens_disk",
-      "target": "camera_reference",
-      "label": "镜头转盘",
-      "material": "abs",
-      "kind": "generated",
-      "shapeHash": "b6be2ebe8c99453b63fa92aa8ff99680f628977664678ca677e747723ff26d22",
-      "transform": {
-        "positionMm": [
-          0,
-          0,
-          0
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "camera_lens_ring",
-      "target": "camera_reference",
-      "label": "金色镜头圈",
-      "material": "brass",
-      "kind": "generated",
-      "shapeHash": "bc5e055a0f535a7624cc670140677bc9208439193a3ddbd53ebbfcaf746cf756",
+      "shapeHash": "403f15bac462ec53cc95ec2cf64f6f16a55ca83312b0c6dc8413d9f9f35ed8ab",
       "transform": {
         "positionMm": [
           0,
@@ -285,7 +204,88 @@
       "label": "黑色镜头窗口",
       "material": "abs",
       "kind": "generated",
-      "shapeHash": "f5db49762702a619272334a915ae76243509931c3116eecb87c3002dc0dcbfcf",
+      "shapeHash": "c99067dc9636f396b48c46188bd9e4c3d92db810651951596282c487fa40c89a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_lens_disk",
+      "target": "camera_reference",
+      "label": "镜头转盘",
+      "material": "abs",
+      "kind": "generated",
+      "shapeHash": "baec5c98a89ad67e60f7c94326b8dedb2586de842049186282773741bf96d8d3",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_lens_ring",
+      "target": "camera_reference",
+      "label": "金色镜头圈",
+      "material": "brass",
+      "kind": "generated",
+      "shapeHash": "7bcfd28a5fb3912eb5c9e354a546d71c7159ab5790cc28579ed02981accac207",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "camera_glass",
+      "target": "camera_reference",
+      "label": "镜头玻璃",
+      "material": "glass",
+      "kind": "generated",
+      "shapeHash": "a3f4a5b4e706635dc7e9ada7eb5807f1a33589bc5716a980e0a27088a5ac7beb",
       "transform": {
         "positionMm": [
           0,
@@ -312,7 +312,7 @@
       "label": "Headband",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "2bfa5fab132b8ee5e974dc31524e768448452f21fa7cf5e96e547c6082595f39",
+      "shapeHash": "7068fe4434b16dc29e469e10255bdd3ad5bbebdeb82513bbdecf7034b4faef43",
       "transform": {
         "positionMm": [
           0,
@@ -339,7 +339,7 @@
       "label": "右猫耳",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "8ed93c97686a1f0ad8f0b2ddd87f6f6399d153e94b73f4b95ba1640c295c98a0",
+      "shapeHash": "fa73e51ac09b9a94276afd71cd07c490362e984aa294f8a434c29bf15c576860",
       "transform": {
         "positionMm": [
           30,
@@ -366,7 +366,7 @@
       "label": "左猫耳",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "e61d529d256cf3872733441b2cc074668a058bd421e932475c27a6fe8f6e592d",
+      "shapeHash": "b9b94ff4dd7a81a363a8aef1fa1f13947c1c6f60bc66d601748e26323e2f5bd0",
       "transform": {
         "positionMm": [
           -30,
@@ -393,34 +393,7 @@
       "label": "麦杆根部连接座",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "2b2b717fb1aa3a47a3f23321a1e4bc3d6000d5c9ca2117bb5fc02e373472b975",
-      "transform": {
-        "positionMm": [
-          35.45307910843949,
-          0,
-          82.7486656039905
-        ],
-        "rotationDeg": [
-          0,
-          0,
-          0
-        ],
-        "rotationOrder": "XYZ",
-        "scale": [
-          1,
-          1,
-          1
-        ]
-      },
-      "datums": []
-    },
-    {
-      "id": "right_cup_pad",
-      "target": "right_cup",
-      "label": "右耳罩软垫",
-      "material": "tpu",
-      "kind": "generated",
-      "shapeHash": "e22901c35200552ec491c45ddfbc6f964711580c5eff2df9e3b5a67a4482b14c",
+      "shapeHash": "21e4eb264e64dda348dc537168ca350b41b9168d03656f39ef5dda0d384db9ce",
       "transform": {
         "positionMm": [
           35.45307910843949,
@@ -447,7 +420,7 @@
       "label": "右耳罩外壳",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "28072b71a4f9a9b43a56bc3df83da55aa8c2f222637dff099265b4d09f62732f",
+      "shapeHash": "a2348bdc60ba59d3abb6ee1d32129ab9cab74d4e2568288a40db0d38471cd927",
       "transform": {
         "positionMm": [
           35.45307910843949,
@@ -469,12 +442,39 @@
       "datums": []
     },
     {
-      "id": "left_cup_pad",
-      "target": "left_cup",
-      "label": "左耳罩软垫",
+      "id": "right_cup_pad",
+      "target": "right_cup",
+      "label": "右耳罩软垫",
       "material": "tpu",
       "kind": "generated",
-      "shapeHash": "b954c62ee69fa34db1242fd44e58e5fab8c6e643c8234e758f16bdea4b784707",
+      "shapeHash": "645e237b4ffbe421544f620741628e29b7820357e110b25ef8d313db49548a79",
+      "transform": {
+        "positionMm": [
+          35.45307910843949,
+          0,
+          82.7486656039905
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "left_cup_shell",
+      "target": "left_cup",
+      "label": "左耳罩外壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "880d30bc7be8c661ab6f7c8469564986aa3e67f6eaa74aca7003da452c7b2cad",
       "transform": {
         "positionMm": [
           -35.45307910843949,
@@ -496,12 +496,12 @@
       "datums": []
     },
     {
-      "id": "left_cup_shell",
+      "id": "left_cup_pad",
       "target": "left_cup",
-      "label": "左耳罩外壳",
-      "material": "petg",
+      "label": "左耳罩软垫",
+      "material": "tpu",
       "kind": "generated",
-      "shapeHash": "dacb4182d1b614c26874331d5c26e4d866084dae58ba3255f8a93de1e493ae0a",
+      "shapeHash": "246505ec962a722ff16a9e19d38361d2e77ef7595dd7c20a493e27dd3bf48080",
       "transform": {
         "positionMm": [
           -35.45307910843949,
@@ -528,7 +528,7 @@
       "label": "弯曲麦杆",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "dd421ebbdc1a477fb8a4d2874e9069fd0faa44175757995f245a82b3fac31c14",
+      "shapeHash": "cb61fd271d7bec46d8000e32ed50bc97190812e276cf37e76d0dc47a9f0568a6",
       "transform": {
         "positionMm": [
           51,
@@ -555,7 +555,7 @@
       "label": "黑色麦克风头",
       "material": "rubber",
       "kind": "generated",
-      "shapeHash": "831651f45f71ebd9f2f9bf9071bd6b65214a1214d187e938d4ef1497ef3a22d8",
+      "shapeHash": "5e7359005d2ac40b556233693a54a83664d3f898bb37f42c272e0f9cac64699c",
       "transform": {
         "positionMm": [
           26,
@@ -582,7 +582,7 @@
       "label": "麦头圆柱套筒",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "e06004420e859a6a1a8c7a9b6ccb2b4ae83b054074c4dfe79087e4f397e46407",
+      "shapeHash": "d70109041d16cd1cced83106ed6b7560125d127a9c51f3edc80d1281f1ea21b6",
       "transform": {
         "positionMm": [
           26,
@@ -606,7 +606,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-10-09T07:20:55.811Z",
+  "updatedAt": "2026-11-09T00:57:53.814Z",
   "parameters": {
     "camera_reference": {
       "camera_width": 82,

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "file": "models/c700_headset.glb",
+      "design": "c700_headset"
+    }
+  ]
+}
